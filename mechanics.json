@@ -1,0 +1,555 @@
+{
+  "version": 1,
+  "values": [
+    {
+      "name": "max speed",
+      "group": "movement",
+      "value": 350,
+      "unit": "units/s",
+      "estimated": true
+    },
+    {
+      "name": "acceleration",
+      "group": "movement",
+      "value": 140,
+      "unit": "units/s2",
+      "estimated": true
+    },
+    {
+      "name": "deceleration",
+      "group": "movement",
+      "value": 140,
+      "unit": "units/s2",
+      "estimated": true
+    },
+    {
+      "name": "pitch rate",
+      "group": "movement",
+      "value": 1.25,
+      "unit": "rad/s",
+      "estimated": true
+    },
+    {
+      "name": "roll rate",
+      "group": "movement",
+      "value": 2.0,
+      "unit": "rad/s",
+      "estimated": true
+    },
+    {
+      "name": "yaw",
+      "group": "movement",
+      "value": "none",
+      "source": "spec 2: pitch, roll and forward thrust only"
+    },
+    {
+      "name": "views",
+      "group": "camera",
+      "value": 4,
+      "unit": "external views",
+      "source": "spec 6"
+    },
+    {
+      "name": "laser range",
+      "group": "weapons",
+      "value": 15000,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "pulse laser damage",
+      "group": "weapons",
+      "value": 10,
+      "source": "spec 5 baseline laser"
+    },
+    {
+      "name": "beam laser damage",
+      "group": "weapons",
+      "value": 16,
+      "estimated": true
+    },
+    {
+      "name": "military laser damage",
+      "group": "weapons",
+      "value": 24,
+      "estimated": true
+    },
+    {
+      "name": "shot interval",
+      "group": "weapons",
+      "value": 0.11,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "laser heat per shot",
+      "group": "weapons",
+      "value": 9,
+      "estimated": true
+    },
+    {
+      "name": "laser heat limit",
+      "group": "weapons",
+      "value": 240,
+      "source": "spec 6 laser temperature shuts down at maximum"
+    },
+    {
+      "name": "laser cooling",
+      "group": "weapons",
+      "value": 42,
+      "unit": "per second",
+      "estimated": true
+    },
+    {
+      "name": "missile speed",
+      "group": "weapons",
+      "value": 900,
+      "unit": "units/s",
+      "estimated": true
+    },
+    {
+      "name": "missile damage",
+      "group": "weapons",
+      "value": 120,
+      "estimated": true
+    },
+    {
+      "name": "ecm energy cost",
+      "group": "weapons",
+      "value": 40,
+      "estimated": true
+    },
+    {
+      "name": "forward shield",
+      "group": "defence",
+      "value": 255,
+      "source": "reference picture-1 gauge full"
+    },
+    {
+      "name": "aft shield",
+      "group": "defence",
+      "value": 255,
+      "source": "reference picture-1 gauge full"
+    },
+    {
+      "name": "shield regen",
+      "group": "defence",
+      "value": 2,
+      "unit": "per second",
+      "estimated": true
+    },
+    {
+      "name": "energy banks",
+      "group": "defence",
+      "value": 4,
+      "source": "spec 5 four-bank capacitor"
+    },
+    {
+      "name": "energy total",
+      "group": "defence",
+      "value": 1020,
+      "estimated": true
+    },
+    {
+      "name": "energy regen",
+      "group": "defence",
+      "value": 6,
+      "unit": "per second",
+      "estimated": true
+    },
+    {
+      "name": "enemy hit damage min",
+      "group": "defence",
+      "value": 7,
+      "estimated": true
+    },
+    {
+      "name": "enemy hit damage max",
+      "group": "defence",
+      "value": 16,
+      "estimated": true
+    },
+    {
+      "name": "starting cash",
+      "group": "economy",
+      "value": 100.0,
+      "unit": "CR",
+      "source": "spec 1"
+    },
+    {
+      "name": "cargo capacity",
+      "group": "economy",
+      "value": 20,
+      "unit": "t",
+      "source": "spec 1"
+    },
+    {
+      "name": "large cargo bay",
+      "group": "economy",
+      "value": 35,
+      "unit": "t",
+      "source": "spec 5"
+    },
+    {
+      "name": "commodities",
+      "group": "economy",
+      "value": 17,
+      "source": "spec 4"
+    },
+    {
+      "name": "fuel tank",
+      "group": "navigation",
+      "value": 7.0,
+      "unit": "LY",
+      "source": "spec 2"
+    },
+    {
+      "name": "fuel price",
+      "group": "economy",
+      "value": 2.0,
+      "unit": "CR per LY",
+      "estimated": true
+    },
+    {
+      "name": "galaxies",
+      "group": "navigation",
+      "value": 8,
+      "source": "spec 2"
+    },
+    {
+      "name": "systems per galaxy",
+      "group": "navigation",
+      "value": 256,
+      "source": "spec 2"
+    },
+    {
+      "name": "witch space chance",
+      "group": "navigation",
+      "value": 0.08,
+      "estimated": true
+    },
+    {
+      "name": "docking distance",
+      "group": "docking",
+      "value": 650,
+      "unit": "units",
+      "estimated": true,
+      "source": "estimated"
+    },
+    {
+      "name": "docking speed limit",
+      "group": "docking",
+      "value": 220,
+      "unit": "units/s",
+      "estimated": true
+    },
+    {
+      "name": "docking facing dot",
+      "group": "docking",
+      "value": -0.9,
+      "estimated": true,
+      "source": "estimated (forward dot face normal)"
+    },
+    {
+      "name": "station spin",
+      "group": "docking",
+      "value": 0.12,
+      "unit": "rad/s",
+      "estimated": true
+    },
+    {
+      "name": "scanner range",
+      "group": "display",
+      "value": 25600,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "rank Elite kills",
+      "group": "ranking",
+      "value": 6400,
+      "source": "spec 6"
+    },
+    {
+      "name": "rank Deadly kills",
+      "group": "ranking",
+      "value": 2560,
+      "source": "spec 6"
+    },
+    {
+      "name": "rank Dangerous kills",
+      "group": "ranking",
+      "value": 512,
+      "source": "spec 6"
+    },
+    {
+      "name": "rank Competent kills",
+      "group": "ranking",
+      "value": 128,
+      "source": "spec 6"
+    },
+    {
+      "name": "rank Above Average kills",
+      "group": "ranking",
+      "value": 64,
+      "source": "spec 6"
+    },
+    {
+      "name": "rank Average kills",
+      "group": "ranking",
+      "value": 32,
+      "source": "spec 6"
+    },
+    {
+      "name": "rank Poor kills",
+      "group": "ranking",
+      "value": 16,
+      "source": "spec 6"
+    },
+    {
+      "name": "rank Mostly Harmless kills",
+      "group": "ranking",
+      "value": 8,
+      "source": "spec 6"
+    },
+    {
+      "name": "pitch up key",
+      "group": "controls",
+      "value": "S / Up",
+      "source": "spec 2 flight controls"
+    },
+    {
+      "name": "roll left key",
+      "group": "controls",
+      "value": ", / Left",
+      "source": "spec 2 flight controls"
+    },
+    {
+      "name": "accelerate key",
+      "group": "controls",
+      "value": "SPACE",
+      "source": "spec 2 flight controls"
+    },
+    {
+      "name": "fire key",
+      "group": "controls",
+      "value": "A",
+      "source": "spec 2 flight controls"
+    },
+    {
+      "name": "view keys",
+      "group": "controls",
+      "value": "1 2 3 4",
+      "source": "spec 6 four views"
+    },
+    {
+      "name": "hyperspace key",
+      "group": "controls",
+      "value": "H",
+      "source": "spec 2"
+    },
+    {
+      "name": "dashboard gauges left",
+      "group": "display",
+      "value": "FS AS FU CT LT AL",
+      "source": "reference picture-1, labels in red at x 2-13, bars x 16-47"
+    },
+    {
+      "name": "dashboard centre",
+      "group": "display",
+      "value": "red dashed elliptical scanner with green ELITE wordmark",
+      "source": "reference picture-1: dashed red ellipse rows 204-239, green ELITE rows 241-245"
+    },
+    {
+      "name": "dashboard gauges right",
+      "group": "display",
+      "value": "SP RL DC and four energy banks 1-4",
+      "source": "reference picture-1, red labels right-aligned at x 242-253"
+    },
+    {
+      "name": "docking roll tolerance",
+      "group": "docking",
+      "value": 0.86,
+      "unit": "dot(up, slot axis)",
+      "source": "spec 3: match the ship's roll to the slot"
+    },
+    {
+      "name": "hull collision distance",
+      "group": "docking",
+      "value": 470,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "crash damage base",
+      "group": "docking",
+      "value": 20,
+      "unit": "points",
+      "source": "spec 3: hitting the hull causes damage"
+    },
+    {
+      "name": "crash damage per speed",
+      "group": "docking",
+      "value": 0.3,
+      "unit": "points per unit/s",
+      "estimated": true
+    },
+    {
+      "name": "laser energy per pulse shot",
+      "group": "weapons",
+      "value": 2,
+      "estimated": true
+    },
+    {
+      "name": "laser energy per beam shot",
+      "group": "weapons",
+      "value": 4,
+      "estimated": true
+    },
+    {
+      "name": "laser energy per military shot",
+      "group": "weapons",
+      "value": 6,
+      "estimated": true
+    },
+    {
+      "name": "safe zone radius",
+      "group": "combat",
+      "value": 6000,
+      "unit": "units",
+      "source": "spec 2 station safety perimeter; radius estimated"
+    },
+    {
+      "name": "mining splinters per asteroid",
+      "group": "weapons",
+      "value": 2,
+      "source": "spec 4 mining laser fractures asteroids"
+    },
+    {
+      "name": "energy bomb radius",
+      "group": "weapons",
+      "value": 25600,
+      "unit": "units",
+      "source": "spec 5 area effect within scanner range"
+    },
+    {
+      "name": "fuel scoop range",
+      "group": "equipment",
+      "value": 320,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "sun skim refill rate",
+      "group": "equipment",
+      "value": 1.4,
+      "unit": "LY per second",
+      "source": "spec 3 free fuel from the star; rate estimated"
+    },
+    {
+      "name": "escape capsule price",
+      "group": "equipment",
+      "value": 1000,
+      "unit": "CR",
+      "source": "spec 5 equipment; price estimated"
+    },
+    {
+      "name": "escape capsule reward",
+      "group": "equipment",
+      "value": 25,
+      "unit": "CR",
+      "estimated": true
+    },
+    {
+      "name": "thargoids in witch space",
+      "group": "combat",
+      "value": 2,
+      "source": "spec 2 hostile Thargoid warships"
+    },
+    {
+      "name": "thargons in witch space",
+      "group": "combat",
+      "value": 4,
+      "source": "spec 5 Thargons deploy as drones; number estimated"
+    },
+    {
+      "name": "thargoid energy",
+      "group": "combat",
+      "value": 260,
+      "estimated": true
+    },
+    {
+      "name": "thargon energy",
+      "group": "combat",
+      "value": 18,
+      "estimated": true
+    },
+    {
+      "name": "sound",
+      "group": "display",
+      "value": "laser, explosion, beep, docking (synthesised)",
+      "source": "spec 6 cockpit alerts; tones made for this build"
+    },
+    {
+      "name": "viewport share of screen",
+      "group": "display",
+      "value": 0.775,
+      "unit": "fraction",
+      "source": "measured: dashboard starts at row 192 of 248 in reference picture-1"
+    },
+    {
+      "name": "planet description",
+      "group": "display",
+      "value": "one generated line from the system seed",
+      "source": "spec 6 procedural planet notes; wording written for this build"
+    },
+    {
+      "name": "docking computer tech level",
+      "group": "equipment",
+      "value": 5,
+      "source": "estimated (so the starting system can sell it)"
+    },
+    {
+      "name": "gauge bar colour",
+      "group": "display",
+      "value": "yellow, filled from the left",
+      "source": "reference picture-1 rows 194-196, 202-204, 210-212"
+    },
+    {
+      "name": "gauge label colour",
+      "group": "display",
+      "value": "red two-letter code, left of the bar",
+      "source": "reference picture-1 rows 194-198"
+    },
+    {
+      "name": "gauge tick line",
+      "group": "display",
+      "value": "dashed green line under each bar",
+      "source": "reference picture-1 rows 199, 214, 222, 230, 238"
+    },
+    {
+      "name": "canopy edge",
+      "group": "display",
+      "value": "alternating white and yellow blocks, 4 px each",
+      "source": "reference picture-1 row 192 W W W W Y Y Y Y"
+    },
+    {
+      "name": "dashboard rail colour",
+      "group": "display",
+      "value": "yellow bottom rail and yellow column dividers",
+      "source": "reference picture-1 rows 247 and columns 48/184"
+    },
+    {
+      "name": "wordmark colour",
+      "group": "display",
+      "value": "green",
+      "source": "reference picture-1 rows 241-245"
+    },
+    {
+      "name": "dock/launch screen",
+      "group": "display",
+      "value": "white text list on black, red status panel, green highlights",
+      "source": "reference picture-2"
+    }
+  ]
+}

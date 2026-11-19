@@ -1,0 +1,20 @@
+{
+  "steps": [
+    {
+      "detail": "flew 159 units forward, speed 0.21 LM",
+      "passed": true,
+      "step": "move"
+    },
+    {
+      "detail": "fired 11 laser shots, 10 hit the drone",
+      "passed": true,
+      "step": "act"
+    },
+    {
+      "detail": "dashboard shows speed 0.21 LM, cash 100.0 CR, cargo 0/20 t, shields 241/255, fuel 7.0 LY (drawn)",
+      "passed": true,
+      "step": "hud"
+    }
+  ],
+  "version": 1
+}
